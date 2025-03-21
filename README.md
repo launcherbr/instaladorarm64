@@ -1,4 +1,9 @@
-# Instalador Whaticket SaaS - Redis em Docker
+# Instalador Whaticket SaaS
+
+Substituimos a instalação do docker por um comando único para maior compatibilidade com as diferentes arquiteturas de servidores. 
+i386, arm64, x86_64 / 64 Bits.
+
+Modificamos para que o PostgreSQL seja instalado conforme a arquitetura do servidor.
 
 ```bash
 sudo apt -y update && apt -y upgrade
