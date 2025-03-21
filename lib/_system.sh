@@ -314,6 +314,7 @@ system_docker_install() {
                  ca-certificates curl \
                  software-properties-common
 
+  sleep 2
   curl -sSL https://get.docker.com/ | sh
 
 EOF
