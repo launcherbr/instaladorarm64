@@ -285,7 +285,6 @@ system_node_install() {
   apt-get install -y nodejs
   sleep 2
   npm install -g npm@latest
-  npm install -g typescript
   sleep 2
   sudo apt-get update -y
   sudo apt-get update -y && sudo apt-get -y install postgresql postgresql-contrib -y
